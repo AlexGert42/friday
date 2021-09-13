@@ -1,17 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './styles/index.scss';
+// import 'antd/dist/antd.css'
+import {App} from './App';
+import {store} from './store/store';
+import {BrowserRouter} from 'react-router-dom';
+import { Provider } from 'react-redux';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Provider store={store}>
+            <BrowserRouter>
+                <App/>
+            </BrowserRouter>
+        </Provider>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+//  "scripts": {
+//    "start": "react-scripts start",
+//    "build": "react-scripts build",
+//    "test": "react-scripts test",
+//    "eject": "react-scripts eject"
+//  },
+

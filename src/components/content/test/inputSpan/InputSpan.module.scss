@@ -1,0 +1,22 @@
+
+.input {
+  padding: 10px !important;
+  display: block;
+}
+
+.input__text {
+  padding: 3px 0;
+  display: inline-block;
+  cursor: pointer;
+  &:hover {
+    border-bottom: #6D9683 1px solid;
+    margin-bottom: -1px;
+  }
+}
+
+.error {
+  margin: 5px 0;
+  display: block;
+  color: #ce0000;
+  font-size: 12px;
+}

@@ -1,0 +1,28 @@
+
+
+.not_page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  .not_page__title {
+    font-size: 100px;
+    @media (max-width: 768px) {
+      font-size: 60px;
+      text-align: center;
+    }
+  }
+  .not_page__subtitle {
+    font-size: 30px;
+    @media (max-width: 768px) {
+      font-size: 30px;
+      text-align: center;
+    }
+    @media (max-width: 420px) {
+      font-size: 20px;
+    }
+  }
+  .not_page__img {
+    max-width: 300px
+  }
+}
