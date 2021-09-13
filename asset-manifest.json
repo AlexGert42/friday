@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/friday/static/css/main.3050bef3.chunk.css",
+    "main.js": "/friday/static/js/main.3deee594.chunk.js",
+    "main.js.map": "/friday/static/js/main.3deee594.chunk.js.map",
+    "runtime-main.js": "/friday/static/js/runtime-main.76a01c93.js",
+    "runtime-main.js.map": "/friday/static/js/runtime-main.76a01c93.js.map",
+    "static/css/2.888e13c5.chunk.css": "/friday/static/css/2.888e13c5.chunk.css",
+    "static/js/2.a5e32c23.chunk.js": "/friday/static/js/2.a5e32c23.chunk.js",
+    "static/js/2.a5e32c23.chunk.js.map": "/friday/static/js/2.a5e32c23.chunk.js.map",
+    "index.html": "/friday/index.html",
+    "static/css/2.888e13c5.chunk.css.map": "/friday/static/css/2.888e13c5.chunk.css.map",
+    "static/css/main.3050bef3.chunk.css.map": "/friday/static/css/main.3050bef3.chunk.css.map",
+    "static/js/2.a5e32c23.chunk.js.LICENSE.txt": "/friday/static/js/2.a5e32c23.chunk.js.LICENSE.txt",
+    "static/media/depositphotos_8282018-stock-photo-badge-sad-smiley.1cf6353c.jpg": "/friday/static/media/depositphotos_8282018-stock-photo-badge-sad-smiley.1cf6353c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76a01c93.js",
+    "static/css/2.888e13c5.chunk.css",
+    "static/js/2.a5e32c23.chunk.js",
+    "static/css/main.3050bef3.chunk.css",
+    "static/js/main.3deee594.chunk.js"
+  ]
+}
